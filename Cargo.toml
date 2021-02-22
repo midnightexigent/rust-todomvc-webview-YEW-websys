@@ -1,0 +1,15 @@
+[package]
+name = "webview_yew_sys"
+version = "0.1.0"
+authors = ["Midnight Exigent <6959267-midnightexigent@users.noreply.gitlab.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rust-embed = "5.9"
+tokio = { version = "1", features = ["full"] }
+warp = "0.3"
+web-view = "0.7"
+mime_guess = "2.0"
+hyper = "0.14"
