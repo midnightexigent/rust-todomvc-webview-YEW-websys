@@ -1505,7 +1505,6 @@ dependencies = [
 name = "webview_yew_sys"
 version = "0.1.0"
 dependencies = [
- "hyper",
  "mime_guess",
  "rust-embed",
  "tokio",
